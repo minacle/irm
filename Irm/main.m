@@ -11,7 +11,7 @@ int usage(void) {
     return EXIT_FAILURE;
 }
 
-bool force, recursive, verbose;
+bool recursive, verbose;
 int exitcode = EXIT_SUCCESS;
 
 NSStringEncoding systemEncoding;
